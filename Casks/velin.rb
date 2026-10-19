@@ -1,10 +1,10 @@
 cask "velin" do
-  version "0.1.1"
-  sha256 "47ca8c1b93ce787a18dd2056e2e22ef27a013c12664bbc3be31c585f395e3010"
+  version "0.2.0"
+  sha256 "93324bce391e005790307560d5060ca562e35772c449210f91fc509e8ef2f99d"
 
   url "https://github.com/velinmd/velin-releases/releases/download/v#{version}/Velin-#{version}.zip"
   name "Velin"
-  desc "Native notes app for plain Markdown files"
+  desc "Your notes and data, beautifully"
   homepage "https://velin.md"
 
   livecheck do
