@@ -1,6 +1,6 @@
 cask "velin" do
-  version "0.5.0"
-  sha256 "0d0432ef5010b1d9efd3c2846acff1bc150d8a24a4dc31bcda316c3d2a303064"
+  version "0.6.0"
+  sha256 "474771d4f20bd4b5981c42edb182b79bd28a9e90ff8aabd1ba51db2ad403bf01"
 
   url "https://github.com/velinmd/velin-releases/releases/download/v#{version}/Velin-#{version}.zip"
   name "Velin"
