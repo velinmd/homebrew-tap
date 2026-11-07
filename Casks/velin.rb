@@ -1,6 +1,6 @@
 cask "velin" do
-  version "0.4.0"
-  sha256 "8bd974da8fc44dad68ddb15ee5ec6f3828479206952dbd23a4292b2b9af19c5c"
+  version "0.5.0"
+  sha256 "0d0432ef5010b1d9efd3c2846acff1bc150d8a24a4dc31bcda316c3d2a303064"
 
   url "https://github.com/velinmd/velin-releases/releases/download/v#{version}/Velin-#{version}.zip"
   name "Velin"
@@ -12,6 +12,8 @@ cask "velin" do
     strategy :github_latest
   end
 
+  # Velin updates itself (Settings → General); brew upgrade leaves it to the app.
+  auto_updates true
   depends_on arch: :arm64
   depends_on macos: :ventura
 
